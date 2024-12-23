@@ -1,0 +1,50 @@
+.s4 {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #ffffff; /* Optional: adjust the section background */
+}
+
+.s4 .button {
+    background-color: transparent; /* Button background */
+    color: #6e07f3; /* Text color */
+    border: 2px solid #6e07f3; /* Border color */
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 35px; /* Padding inside the button */
+    font-size: 0.9rem; /* Font size */
+    font-weight: 500; /* Font weight */
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline from text */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.s4 .button .icon {
+    margin-right: 8px; /* Space between icon and text */
+    display: inline-flex;
+    align-items: center;
+}
+
+.s4 .button svg {
+    fill: #6e07f3; /* Icon color */
+    transition: all 0.3s ease; /* Smooth transition for the icon */
+    width: 25px; /* Adjusted size */
+    height: 25px; /* Adjusted size */
+}
+
+.s4 .button:hover {
+    background-color: #6e07f3; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+    border-color: #6e07f3; /* Border color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.s4 .button:hover .icon svg {
+    transform: rotate(360deg); /* Rotate the icon on hover */
+}
+.icon {
+    border: 1px solid #5be9b9;
+    background-color: #5be9b9;
+    border-radius: 100px;
+    fill: #141c3a;
+    padding: 4px;
+}

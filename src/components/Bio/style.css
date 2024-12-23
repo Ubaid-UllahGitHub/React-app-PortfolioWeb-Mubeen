@@ -1,0 +1,28 @@
+.s1{
+    max-width: 100%;
+    margin: auto;
+    height: 700px;
+    overflow: hidden;
+    background-color: #6e07f3;
+    position: relative;
+}
+.container{
+    width: 90%;
+    margin: 90px auto; 
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bio-data h1{
+    font-size: 40px;
+    font-family: "Nanum Gothic Coding", monospace;
+    text-align: center;
+    color: white;
+}
+.bio-data p{
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}

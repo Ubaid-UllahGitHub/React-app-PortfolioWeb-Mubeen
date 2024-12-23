@@ -1,0 +1,41 @@
+body {
+    font-family: urbanist;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+.main1 { /* Changed from 'main1' to '.main1' */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -50px;
+    z-index: 100;
+}
+
+.heading-container1 {
+    width: 90%;
+    margin: -50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-container1 h2 {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-size: 7vw;
+    margin: 0;
+}
+
+.heading-container1 p {
+    font-size: 2vm; /* Fixed typo: 'vm' should be 'rem' or 'vw' for font size */
+}
+
+.heading-container1 img {
+    width: 100px;   
+    padding-bottom: 60px;    
+}
