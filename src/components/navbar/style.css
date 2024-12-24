@@ -118,3 +118,9 @@ header {
 .header-btn .button-link:hover svg {
     transform: rotate(360deg);
 }
+
+@media (max-width: 768px) {
+    .portfolio-navbar {
+        display: none; /* Hide navbar on mobile screens */
+    }
+}

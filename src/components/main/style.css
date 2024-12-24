@@ -27,7 +27,7 @@ main{
     align-items: center;
 }
 .header-subh {
-    font-size: clamp(0.9rem, 3vw, 1.4rem);
+    font-size: clamp(0.75rem, 3vw, 1.4rem);
     text-align: center;
     margin: 0px;
     font-weight: 500;
@@ -36,7 +36,7 @@ main{
 }
 .header-main-h {
     text-align: center;
-    font-size: clamp(1.9rem, 5vw, 10rem);
+    font-size: clamp(1.75rem, 5vw, 10rem);
     color: #141c3a;
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: bolder;

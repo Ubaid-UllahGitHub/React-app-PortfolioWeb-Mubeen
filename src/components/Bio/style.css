@@ -23,6 +23,7 @@
 }
 .bio-data p{
     color: white;
+    font-size: clamp(0.85rem, 1.8vw, 1.6rem);
     text-align: center;
     line-height: 1.5;
 }
