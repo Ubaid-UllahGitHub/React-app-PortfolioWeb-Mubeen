@@ -20,7 +20,7 @@ const ContactHeader = () => {
         <div className="header-btn1">
           {/* Resume download button */}
           <a 
-            href="public\Mubeen Iqbal Full Stack Developer-.pdf" 
+            href="/images/pdf/Mubeen Iqbal Full Stack Developer-.pdf" 
             className="button-link1" 
             download="Mubeen_Iqbal_Resume.pdf"
           >
