@@ -5,6 +5,7 @@ import './style.css';
 const ContactHeader = () => {
   return (
     <header className="header1">
+      <div className="inner-header">
       <div className="portfolio-header1">
         <div className="portfolio-logo1">
           {/* Use Link for routing to home or other pages */}
@@ -29,6 +30,7 @@ const ContactHeader = () => {
             </svg>
             Get My Resume
           </a>
+        </div>
         </div>
       </div>
     </header>

@@ -6,17 +6,13 @@ body {
     padding: 0;
     box-sizing: border-box; 
 }
-
-
-.main1 { /* Changed from 'main1' to '.main1' */
-    width: 100%;
+.main1 { 
+    width:100%;
     overflow: hidden;
     position: relative;
-    margin-top: -50px;
     z-index: 100;
 }
-
-.heading-container1 {
+.inner-main{
     width: 90%;
     margin: auto;
     display: flex;
@@ -24,19 +20,31 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.heading-container1 h2 {
+.main-image {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content h2 {
     font-family: "Nanum Gothic Coding", monospace;
     font-size: 7vw;
     margin: 0;
 }
 
-.heading-container1 p {
+.main-content p {
     font-size: 2vm; /* Fixed typo: 'vm' should be 'rem' or 'vw' for font size */
 }
 
-.heading-container1 img {
+.main-image img {
     width: 100px;   
-    padding-bottom: 60px;  
-    margin-top: -50px;  
+    padding-bottom: 60px;    
 }
