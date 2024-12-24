@@ -9,7 +9,7 @@ const MainContent = () => {
         <div className="header-col1">
           <h3 className="header-subh">Hi I'm</h3>
           <h1 className="header-main-h">
-            Mubeen Mughal <span> - </span> <span>Full Stack Developer</span>
+            Mubeen Iqbal <span> - </span> <span>Full Stack Developer</span>
           </h1>
           <p>
             I am a Full Stack Developer with expertise in both front-end and back-end technologies. I specialize

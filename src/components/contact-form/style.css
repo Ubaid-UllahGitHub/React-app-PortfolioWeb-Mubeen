@@ -47,6 +47,7 @@ label {
 
 input {
     padding: 10px;
+    color: black;
     border: 1px solid #ccc;
     background-color: white;
     border-radius: 9px;
@@ -65,6 +66,7 @@ input::placeholder{
 
 textarea {
     padding: 10px;
+    color: black;
     border: 1px solid #ccc;
     background-color: white;
     border-radius: 9px;
