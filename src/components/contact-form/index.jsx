@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <section className='contact-section'>
       <div className="form-container">
-        <form action="https://formspree.io/f/mzzblwpj" method="POST">
+        <form action="https://formspree.io/f/xovvvdnq" method="POST">
           {/* First Row: Full Name and Email */}
           <div className="p-col1">
             <div className="col">
