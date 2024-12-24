@@ -22,8 +22,8 @@ const Navbar = () => {
         {/* Navbar Links */}
         <div className="portfolio-navbar">
           <ul>
-            <li><Link to="#services">Services</Link></li> {/* Use Link for internal navigation */}
-            <li><Link to="#portfolio">Portfolio</Link></li> {/* Use Link for internal navigation */}
+            <li><a href="#services">Services</a></li> {/* Use Link for internal navigation */}
+            <li><a href="#portfolio">Portfolio</a></li> {/* Use Link for internal navigation */}
           </ul>
         </div>
         

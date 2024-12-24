@@ -10,6 +10,7 @@ import GitHubButton from './components/GitHubBtn';
 import ContactForm from './components/contact-form';
 import ContactHeader from './components/contact-header';
 import ContactMain from './components/contact-main';
+import FooterSection from './components/footer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
               <ExpertiseSection />
               <Portfolio />
               <GitHubButton />
+              <FooterSection />
             </>
           } 
         />
@@ -38,6 +40,7 @@ const App = () => {
               <ContactHeader />
               <ContactMain />
               <ContactForm />
+              <FooterSection />
             </>
           } 
         />

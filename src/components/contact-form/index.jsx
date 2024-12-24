@@ -3,7 +3,7 @@ import './style.css';
 
 const ContactForm = () => {
   return (
-    <section>
+    <section className='contact-section'>
       <div className="form-container">
         <form action="https://formspree.io/f/mzzblwpj" method="POST">
           {/* First Row: Full Name and Email */}

@@ -19,7 +19,7 @@ const ExpertiseSection = () => {
             </svg>
             <h3>Front-End Developer</h3>
             <p>
-              Proficient in crafting intuitive and responsive user interfaces using modern frameworks like
+              Proficient in crafting intuitive and responsive user interfaces With JavaScript & TypeScript using modern frameworks like
               React.js, Angular, and Next.js to deliver seamless user experiences.
             </p>
           </div>
@@ -57,12 +57,13 @@ const ExpertiseSection = () => {
           </svg>
           <h3>Back-End Developer</h3>
           <p>
-            Building robust, scalable server-side applications with Python, Node.js, and Ruby on Rails, ensuring
+            Building robust, scalable server-side applications with .NET Frameworks, Python, Node.js, and Ruby on Rails, ensuring
             efficient data processing and secure API integration.
           </p>
           <div className="skills">
             <h4>Skills:</h4>
             <p className="skill-list">
+              C# .NET(ASP.NET, .NET Core)<br />
               Python<br />
               Django<br />
               Flask<br />
