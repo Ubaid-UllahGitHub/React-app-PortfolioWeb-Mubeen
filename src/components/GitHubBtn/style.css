@@ -10,8 +10,8 @@
     color: #6e07f3; /* Text color */
     border: 2px solid #6e07f3; /* Border color */
     border-radius: 50px; /* Rounded corners */
-    padding: 10px 35px; /* Padding inside the button */
-    font-size: 0.9rem; /* Font size */
+    padding: clamp(4px, 2vw, 8px) clamp(12px, 2vw, 22px);
+    font-size: clamp(0.8rem, 1vw, 0rem);
     font-weight: 500; /* Font weight */
     display: inline-flex;
     align-items: center;
@@ -28,8 +28,8 @@
 .s4 .button svg {
     fill: #6e07f3; /* Icon color */
     transition: all 0.3s ease; /* Smooth transition for the icon */
-    width: 25px; /* Adjusted size */
-    height: 25px; /* Adjusted size */
+    width: clamp(16px, 2vw, 24px); /* Icon size adapts to screen width */
+    height: clamp(16px, 2vw, 24px);
 }
 
 .s4 .button:hover {
