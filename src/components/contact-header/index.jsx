@@ -21,7 +21,7 @@ const ContactHeader = () => {
         <div className="header-btn1">
           {/* Resume download button */}
           <a 
-            href="image/mubeen-iqbal-full-stack-dev-.pdf" 
+            href="image/mubeen-iqbal-full-stack-dev.pdf" 
             className="button-link1" 
             download="Mubeen_Iqbal_Resume.pdf"
           >
