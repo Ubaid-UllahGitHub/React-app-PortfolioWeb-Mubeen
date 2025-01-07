@@ -18,7 +18,7 @@ const App = () => {
       <Routes>
         {/* Route for the Home page */}
         <Route 
-          path="/" 
+          path='/'
           element={
             <>
               <Navbar />
@@ -34,7 +34,7 @@ const App = () => {
 
         {/* Route for the Contact page */}
         <Route 
-          path="/contact" 
+          path='/contact'
           element={
             <>
               <ContactHeader />
