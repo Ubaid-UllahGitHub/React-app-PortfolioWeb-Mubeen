@@ -18,10 +18,10 @@ const MainContent = () => {
           </p>
         </div>
         <div className="header-col2">
-        <img class="avatar" src="image\Abstract Background Depop Profile Picture (1).png" alt="avatar"/>
+          <img class="avatar" src="image\Abstract Background Depop Profile Picture (1).png" alt="avatar" />
         </div>
         <div className="header-col3">
-        <img class="avatar" src="image\hero-devices.svg" alt="hero-device"/>
+          <img class="avatar" src="image\hero-devices.svg" alt="hero-device" />
         </div>
       </div>
     </main>
