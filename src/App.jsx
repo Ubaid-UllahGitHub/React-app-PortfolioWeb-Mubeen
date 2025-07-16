@@ -100,7 +100,7 @@ const projects = {
     links: [
       {
         label: "Further Documentation",
-        url: "https://smartfarm.example.com", // Replace with actual URL if available
+        url: "https://bedm.de/branchen/smart-farming/", // Replace with actual URL if available
         icon: "🌿",
         internal: false
       },
@@ -120,6 +120,23 @@ const projects = {
         icon: "🌐",
         internal: false
       },
+    ],
+  },
+
+  sharedot: {
+    title: "ShareDot – AI-Enhanced Content Aggregator Platform",
+    subtitle: "Built with MERN Stack and AI/NLP to deliver smart, real-time content discovery.",
+    imageSrc: "image/projectsharedot.png", // Update this to your actual image path
+    imageAlt: "ShareDot Platform Screenshot",
+    description:
+      "Built ShareDot using the MERN stack to aggregate and surface trending content. Implemented an AI-powered NLP feature on the 'Ask' page to intelligently respond to user queries. Developed dynamic UI with React and Material UI, handled backend logic with Express, and integrated MongoDB for robust data handling. Ensured performance, responsiveness, and real-time delivery of curated content.",
+    links: [
+      {
+        label: "Live Project",
+        url: "https://sharedot.com/",
+        icon: "🔗",
+        internal: false
+      }
     ],
   },
 
