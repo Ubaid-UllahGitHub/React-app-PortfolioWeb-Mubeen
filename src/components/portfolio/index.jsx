@@ -34,10 +34,7 @@ function Portfolio() {
             <img src="\image\projectternoa.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
-                Ternoa, built with React.js, Python (Django), and Ruby on Rails,
-                provides a blockchain platform with privacy and censorship
-                resistance. It features EVM-equivalent and WASM infrastructure
-                for secure digital asset management.
+                Blockchain app built with React and Node.js for secure, censorship-resistant digital asset management.
               </p>
               <Link to="/projectternoa" className="button-link">
                 <div className="img-btn">
@@ -116,10 +113,7 @@ function Portfolio() {
             <img src="\image\projectsharedot.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
-                NZero, developed with Vue.js, Nuxt.js, and Node.js, is a platform
-                for climate action that offers reporting on carbon emissions. It
-                provides governments with tools to measure and reduce their
-                environmental impact effectively.
+                Smart content discovery platform built with MERN and NLP for real-time, AI-assisted content delivery
               </p>
               <Link to="/projectsharedot" className="button-link">
                 <div className="img-btn">
@@ -153,10 +147,7 @@ function Portfolio() {
             <img src="\image\projectticketing.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
-                Apollo, the all-in-one sales platform built with React.js, Next.js,
-                and Node.js. Seamlessly find leads, engage prospects, manage deals,
-                and boost performance with automation and insights. Trusted by
-                millions for sales.
+                Advanced ticketing platform with RoR backend and a modern, interactive React UI.
               </p>
 
               <Link to="/projectfreshtix" className="button-link">

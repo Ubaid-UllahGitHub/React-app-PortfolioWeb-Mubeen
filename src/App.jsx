@@ -142,11 +142,17 @@ const projects = {
 
   sayrhino: {
     title: "SayRhino Web App UI Development",
-    subtitle: "Developed with React and Tailwind CSS for a modern, animated, and responsive user interface.",
+    subtitle: "React, Tailwind CSS & Hero UI frontend integrated with a powerful Ruby on Rails backend.",
     imageSrc: "/image/projectrhino.png", // Update to your actual image path
     imageAlt: "SayRhino Web App Screenshot",
-    description:
-      "I developed the front end of the SayRhino web application using React, GSAP, Stitches, and Tailwind CSS to create a smooth, responsive, and engaging user experience. The project included advanced animations, modular components with lit-html and lit-element, and cross-browser support using core-js and Lodash. I also integrated Bootstrap 4.5.2, HeroUI, and jQuery for enhanced styling and functionality, delivering a high-performance UI that meets modern design and usability standards.",
+    description: `
+    SayRhino is a modern web application combining a powerful React-based frontend with a Ruby on Rails (RoR) backend.
+    I developed the UI using React, Tailwind CSS, and Hero UI to ensure a responsive and accessible user experience.
+    The interface includes advanced animations via GSAP, styled components with Stitches, and modular architecture 
+    using lit-html and lit-element. The RoR backend powers robust API interactions and secure business logic. 
+    I also leveraged Bootstrap 4.5.2, jQuery, and Lodash for enhanced utility and cross-browser support.
+    This full-stack integration delivers a high-performance, scalable, and visually compelling product.
+  `,
     links: [
       {
         label: "Live Website",
