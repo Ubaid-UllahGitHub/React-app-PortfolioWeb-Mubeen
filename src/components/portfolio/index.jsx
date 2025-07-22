@@ -159,6 +159,112 @@ function Portfolio() {
           </div>
         </div>
       </div>
+
+      <div className="work-heading">
+        <h2>My Shopify Work</h2>
+        <p>
+          Here are a few past design projects I've worked on. Want to see more?{" "}
+          <a href="mailto:mubeenmughal111@gmail.com">Email me.</a>
+        </p>
+      </div>
+
+      <div className="main-container">
+        <div className="col">
+          <div className="img-container cursor-pointer">
+            <img src="/image/conatural.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Built with Shopify, featuring Liquid-based UI customization, dynamic product collections, and a powerful review engine.
+              </p>
+              <Link to="/projectconatural" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/vivanum.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Built with Shopify and powered by custom Liquid, Skio Subscriptions, and a bold science-first brand identity.
+              </p>
+              <Link to="/projectvivanmn" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/fitgirl.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Built with Shopify, combining custom Liquid development, product bundling, and conversion-focused wellness UX.
+              </p>
+              <Link to="/projectfitgirl" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/nutrition.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Built with Shopify using custom Liquid development, fast-loading UI, and integrated review and delivery trust markers.
+              </p>
+              <Link to="/projectnutriworld" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/ventinove.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Developed with Shopify using custom Liquid templates and UI enhancements to elevate brand trust and conversion.
+              </p>
+              <Link to="/projectventinove" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/fleas.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Built with Shopify, featuring Liquid-based UI customization, subscription-ready product flow, and third-party verified wellness branding
+              </p>
+              <Link to="/projectfeals" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

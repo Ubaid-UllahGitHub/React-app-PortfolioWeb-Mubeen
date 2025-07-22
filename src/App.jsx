@@ -179,7 +179,105 @@ const projects = {
       }
     ]
   },
+  ventinove: {
+    title: "Ventinove: Premium Wellness Shopify Store",
+    subtitle: "Developed with Shopify using custom Liquid templates and UI enhancements to elevate brand trust and conversion.",
+    imageSrc: "/image/ventinove.png", // Replace with correct image path
+    imageAlt: "Ventinove Shopify Store Screenshot",
+    description:
+      "Built a modern, conversion-focused Shopify storefront for VENTINOVE—a premium wellness brand offering sleep and skin renewal supplements. Implemented advanced theme customization using Shopify Liquid to tailor product pages, homepage sections, and collection layouts. Enhanced the user interface with custom SCSS and Shopify metafields for dynamic content management. The store integrates multiple secure payment gateways including Shopify Payments, PayPal, and Apple Pay. Key features include an optimized mobile shopping experience, educational product storytelling, comparison tables, subscription prompts, and a frictionless checkout process.",
+    links: [
+      {
+        label: "Visit Ventinove",
+        url: "https://ventinove.co/", // Replace with actual URL if different
+        icon: "🛒",
+        internal: false
+      }
+    ]
+  },
+  nutriworld: {
+    title: "Nutriworld: High-Performance Sports Nutrition Store",
+    subtitle: "Built with Shopify using custom Liquid development, fast-loading UI, and integrated review and delivery trust markers.",
+    imageSrc: "/image/nutrition.png", // Replace with the correct image path
+    imageAlt: "Nutriworld Shopify Store Screenshot",
+    description:
+      "Developed a robust Shopify storefront for Nutriworld—a performance-driven sports nutrition brand. The store features fully customized Shopify theme development using Liquid templates, enabling dynamic product filtering, promotional banners, and custom-built landing pages for SEO campaigns. Enhanced UI using custom CSS and metafields to ensure a responsive and high-converting layout. Integrated Shopify Reviews app for social proof and customer feedback, along with trust-building elements like 'Free Shipping', 'Next-Day Delivery', and '100% Quality Guarantee' on key pages. Checkout process supports Shopify Payments, PayPal, and Google Pay, ensuring secure and fast transactions for mobile and desktop users.",
+    links: [
+      {
+        label: "Visit Nutriworld",
+        url: "https://nutriworld.com", // Replace with the actual live URL
+        icon: "💪",
+        internal: false
+      }
+    ]
+  },
+  fitgirl: {
+    title: "FitGirl Nutrition: Bold & Feminine Wellness Store for Women",
+    subtitle: "Built with Shopify, combining custom Liquid development, product bundling, and conversion-focused wellness UX.",
+    imageSrc: "/image/fitgirl.png", // Replace with correct image path
+    imageAlt: "FitGirl Nutrition Shopify Store Screenshot",
+    description:
+      "Developed a vibrant and feminine Shopify storefront for FitGirl Nutrition—offering science-backed supplements tailored for modern women. Leveraged Shopify Liquid for advanced theme customization, enabling features like personalized product bundles, dynamic badges (e.g., 'Glow Support', 'Hormone Balance'), and reusable content blocks for promotions and expert blog integration. The store highlights user trust with embedded customer testimonials, a reviews system powered by Judge.me, and educational blog content managed via Shopify's native CMS. Optimized for both mobile and desktop, the site also supports secure checkout via Shopify Payments, PayPal, and Apple Pay, with a strong focus on daily wellness journeys and clean nutrition.",
+    links: [
+      {
+        label: "Visit FitGirl Nutrition",
+        url: "https://fitgirlnutrition.com", // Replace with the actual live URL
+        icon: "🌸",
+        internal: false
+      }
+    ]
+  },
+  vivanmn: {
+    title: "VIVANMN: UK-Based Cellular Health & NMN Supplement Store",
+    subtitle: "Built with Shopify and powered by custom Liquid, Skio Subscriptions, and a bold science-first brand identity.",
+    imageSrc: "/image/vivanum.png", // Replace with actual image path
+    imageAlt: "VIVANMN Shopify Store Screenshot",
+    description:
+      "Developed a sleek, science-backed Shopify store for VIVANMN, a premium NMN supplement brand targeting longevity and cellular energy. The site was built with custom Shopify Liquid for complete control over layout and content sections, optimized for SEO and performance. Features include conversion-focused landing pages, persuasive product storytelling, and trust-building badges like 'Third-Party Tested', 'Made in the UK', and '100-Day Guarantee'. Integrated the Skio Subscriptions app to enable flexible monthly plans and increase customer retention. The store supports secure payments via Visa, MasterCard, Google Pay, Apple Pay, and American Express, offering a frictionless checkout experience. Additional enhancements include a blog-driven education strategy, embedded customer reviews, and fast free shipping labels to boost trust and engagement.",
+    links: [
+      {
+        label: "Visit VIVANMN",
+        url: "https://vivanmn.com",
+        icon: "💊",
+        internal: false
+      }
+    ]
+  },
+  conatural: {
+    title: "Conatural: Organic Beauty & Wellness Store",
+    subtitle: "Built with Shopify, featuring Liquid-based UI customization, dynamic product collections, and a powerful review engine.",
+    imageSrc: "/image/conatural.png", // Replace with actual image path
+    imageAlt: "Conatural Shopify Store Screenshot",
+    description:
+      "Built a comprehensive Shopify storefront for Conatural, Pakistan’s leading organic beauty and skincare brand. Developed using Shopify Liquid to create flexible, high-performance templates across a diverse product range—spanning skincare, cosmetics, baby care, and wellness kits. Integrated advanced customer reviews and transformation stories across products to boost trust and engagement. Enhanced the user interface with mobile-first optimizations, detailed product categorization, and dynamic landing sections like Best Sellers, Bundles, and Clearance. Trust labels such as 'Organic', 'Halal Certified', 'Paraben Free', and 'Cruelty Free' reinforce credibility. Payment integration supports Visa, MasterCard, Apple Pay, and Google Pay. Additional features include a blog-based education funnel, loyalty program integration, and robust bundle promotions tailored for repeat purchase behavior.",
+    links: [
+      {
+        label: "Visit Conatural",
+        url: "https://conaturalintl.com", // Replace with the actual final URL if needed
+        icon: "🌿",
+        internal: false
+      }
+    ]
+  },
+  feals: {
+    title: "Feals: CBD + THC Wellness Gummies Store",
+    subtitle: "Built with Shopify, featuring Liquid-based UI customization, subscription-ready product flow, and third-party verified wellness branding.",
+    imageSrc: "/image/projectfeals.png", // Replace with correct image path
+    imageAlt: "Feals Shopify Store Screenshot",
+    description:
+      "Developed a premium Shopify storefront for Feals, a U.S.-based wellness brand offering CBD + THC microdosed sleep and anxiety relief products. The site was designed for high conversion and trust-building, using custom Shopify Liquid templates for product storytelling, FAQ-rich landing pages, and interactive educational flows like the 'Take the Quiz' feature. Subscription support is seamlessly integrated to enable recurring orders for gummies, mints, and tinctures. The store highlights critical wellness features such as USDA Organic sourcing, non-GMO ingredients, and triple lab-tested certifications with Certificates of Analysis available. Payment gateways include Visa, MasterCard, American Express, and Discover. Key features include a Happiness Guarantee (30-day return policy), review-rich content, responsive design, and nationwide shipping across the U.S.",
+    links: [
+      {
+        label: "Visit Feals",
+        url: "https://feals.com/", // Confirm if this is the latest working URL
+        icon: "🌿",
+        internal: false
+      }
+    ]
+  }
 };
+
+
 
 const App = () => {
   return (
@@ -302,6 +400,66 @@ const App = () => {
             <>
               <Navbar />
               <ProjectPage {...projects.freshtix} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectventinove"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.ventinove} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectnutriworld"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.nutriworld} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectfitgirl"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.fitgirl} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectvivanmn"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.vivanmn} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectconatural"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.conatural} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectfeals"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.feals} />
               <FooterSection />
             </>
           }
