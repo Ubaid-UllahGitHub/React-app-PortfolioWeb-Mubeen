@@ -265,6 +265,109 @@ function Portfolio() {
           </div>
         </div>
       </div>
+
+
+
+      <div className="work-heading">
+        <h2>My WordPress Work</h2>
+        <p>
+          Here are a few past design projects I've worked on. Want to see more?{" "}
+          <a href="mailto:mubeenmughal111@gmail.com">Email me.</a>
+        </p>
+      </div>
+
+      <div className="main-container">
+        <div className="col">
+          <div className="img-container cursor-pointer">
+            <img src="/image/mariostore.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Feature-rich ecommerce platform built with WordPress, WooCommerce, Elementor, and custom theme development.
+              </p>
+              <Link to="/projectmariot" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/fabrica.webp" alt="Fabrica Screenshot" />
+            <div className="img-content">
+              <p>
+                Showcase website built with WordPress, featuring immersive storytelling, multiple restaurant locations, and menu highlights.              </p>
+              <Link to="/projectfabbrica" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/arredodalpozzo.webp" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                High-end interior design brand with curated online shop, professional services, and design consultancy.              </p>
+              <Link to="/projectarredodalpozzo" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/thelinehotel.webp" alt="The Line Hotel screenshot" />
+            <div className="img-content">
+              <p>
+                Hospitality website built with WordPress, custom theme development, and booking engine integration.              </p>
+              <Link to="/projectlinehotel" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="image/caesarstoneus.webp" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Corporate ecommerce and brand experience site built with WordPress, WooCommerce, and custom visualization tools.              </p>
+              <Link to="/projectcaesarstone" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="img-container">
+            <img src="/image/HTS.png" alt="portfolio-img1" />
+            <div className="img-content">
+              <p>
+                Modern corporate website built with WordPress, SMTP integration, and interactive design.              </p>
+              <Link to="/projecthandtechsolution" className="button-link">
+                <div className="img-btn">
+                  Learn More
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

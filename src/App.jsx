@@ -274,7 +274,103 @@ const projects = {
         internal: false
       }
     ]
-  }
+  },
+  mariot: {
+    title: "Mariot Store: Commercial Kitchen Equipment Ecommerce",
+    subtitle: "Feature-rich ecommerce platform built with WordPress, WooCommerce, Elementor, and custom theme development.",
+    imageSrc: "/image/mariostore.png", // Replace with actual image path
+    imageAlt: "Mariot Store WordPress WooCommerce Website Screenshot",
+    description:
+      "Developed Mariot Store, a robust ecommerce platform tailored for commercial kitchen equipment. The site leverages WordPress and WooCommerce with Elementor and custom CSS to deliver a visually engaging and high-conversion shopping experience. Key features include advanced catalog management with product filters, price ranges, and category segmentation, alongside support for color and size variations. Each product card is enhanced with a floating WhatsApp CTA button for instant inquiries. Secure payment integrations, real-time shipping rate calculation, and a dynamic cart/checkout system ensure a frictionless purchasing process. Customer-centric policies like easy returns and 24/7 support build trust and reliability, while the design reflects a professional and modern identity suited for the B2B kitchen equipment market.",
+    links: [
+      {
+        label: "Visit Mariot Store",
+        url: "https://mariotstore.com/", // Replace with actual live URL
+        icon: "🍳",
+        internal: false
+      }
+    ]
+  },
+  fabbrica: {
+    title: "Fabbrica Group: Italian Restaurant Collective in Paris",
+    subtitle: "Showcase website built with WordPress, featuring immersive storytelling, multiple restaurant locations, and menu highlights.",
+    imageSrc: "/image/fabrica.webp", // Replace with actual image path
+    imageAlt: "Fabbrica Group WordPress Website Screenshot",
+    description:
+      "Developed for Fabbrica Group, a collective of Italian-inspired restaurants in Paris. The site serves as a digital showcase rather than an e-commerce store, emphasizing brand storytelling and customer engagement. Built with WordPress, it features smooth scroll effects, playful animations, and location-specific pages for Montmartre, Ternes, and Saint-Georges, plus a delivery-only option in Courbevoie. Visitors can explore the 'La Storia' section, which includes detailed menu highlights under 'Cosa si mangia' and a brand philosophy page titled 'Noi'. Additional features include reservation booking, click & collect options, delivery integrations, allergen information, and legal notices. Designed as a lifestyle experience, the Fabbrica site combines Italian culture, visual storytelling, and seamless navigation to attract and engage diners.",
+    links: [
+      {
+        label: "Visit Fabbrica Group",
+        url: "https://fabbricagroup.fr",
+        icon: "🍝",
+        internal: false
+      }
+    ]
+  },
+  arredoDalPozzo: {
+    title: "Arredo Dal Pozzo: Italian Luxury Interior Design & Ecommerce",
+    subtitle: "Ecommerce platform built with WordPress, WooCommerce, Elementor, and custom theme development.",
+    imageSrc: "/image/arredodalpozzo.webp", // Replace with actual image path
+    imageAlt: "Arredo Dal Pozzo Online Shop Screenshot",
+    description:
+      "Arredo Dal Pozzo is a high-end Italian interior design and lifestyle brand offering both professional design services and an extensive online shop. Built with WordPress and WooCommerce, the platform showcases a catalog of over 800,000 designer products, including furniture, lighting, bathroom, office, and outdoor collections. Elementor and custom theme development ensure a polished, luxury brand aesthetic. Key features include brand and designer filters, ready-to-ship product listings, personalized moodboards, and a reserved area for professionals. The site also supports secure payment integrations, real-time shipping logistics, multilingual browsing, and interior design service consultations—seamlessly blending commerce and design expertise.",
+    links: [
+      {
+        label: "Visit Arredo Dal Pozzo Shop",
+        url: "https://shop.arredodalpozzo.it",
+        icon: "🛋️",
+        internal: false
+      }
+    ]
+  },
+  lineHotel: {
+    title: "The LINE Hotel: Boutique Lifestyle Hotel Brand",
+    subtitle: "Hospitality website built with WordPress, custom theme development, and booking engine integration.",
+    imageSrc: "/image/thelinehotel.webp", // Replace with actual image path
+    imageAlt: "The LINE Hotel Website Screenshot",
+    description:
+      "The LINE Hotel is a boutique hospitality brand with locations in Los Angeles, Austin, and Washington, D.C. Their website is built on WordPress with a custom-designed theme to showcase hotels, dining, and cultural programming. It integrates a booking engine for real-time availability and reservations, and uses Elementor-style layouts for flexible page creation. The site blends immersive visuals with editorial storytelling through HERE Magazine, which is managed via WordPress CMS for dynamic content updates. Key features include direct hotel bookings, curated offers, events calendar, city guides, and newsletter sign-ups. Custom theme customization ensures a design-forward aesthetic aligned with The LINE’s brand identity, while multilingual and multi-location support enables global reach. This combination of WordPress, custom development, and third-party integrations makes the site both content-rich and conversion-focused.",
+    links: [
+      {
+        label: "Visit The LINE Hotel",
+        url: "https://www.thelinehotel.com/",
+        icon: "🏨",
+        internal: false
+      }
+    ]
+  },
+  caesarstone: {
+    title: "Caesarstone: Premium Countertops & Surface Design",
+    subtitle: "Corporate ecommerce and brand experience site built with WordPress, WooCommerce, and custom visualization tools.",
+    imageSrc: "image/caesarstoneus.webp", // Replace with actual image path
+    imageAlt: "Caesarstone US Website Screenshot",
+    description:
+      "Caesarstone is a global pioneer in surface design, offering premium quartz, porcelain, and fusion surfaces for kitchens, bathrooms, and commercial interiors. The US website is built on WordPress with WooCommerce support for sample ordering and retail partner integrations, combining brand storytelling with ecommerce functionality. Visitors can browse the full surface catalog, compare colors, explore the latest ICON™ 2025 collection, and access professional resources through 'Caesarstone Studio.' Interactive visualization tools like 'View in Your Room' and sample ordering provide a hands-on digital experience for homeowners and trade professionals. Custom theme development ensures alignment with Caesarstone’s premium identity, while multilingual content, sustainability reporting, warranty details, and dealer locators reinforce trust and global reach. The site also integrates blog-style inspiration pages, design elements, and ESG highlights, making it both a sales driver and brand showcase.",
+    links: [
+      {
+        label: "Visit Caesarstone US",
+        url: "https://www.caesarstoneus.com/",
+        icon: "🪨",
+        internal: false
+      }
+    ]
+  },
+  handtechsolution: {
+    title: "HandTech Solution: Innovative Tech Startup Services",
+    subtitle: "Modern corporate website built with WordPress, SMTP integration, and interactive design.",
+    imageSrc: "/image/HTS.png", // Replace with actual image path
+    imageAlt: "HandTech Solution Website Screenshot",
+    description:
+      "HandTech Solution is a forward-thinking tech startup that provides innovative digital services with a focus on responsive design, brand identity, and customer engagement. The website is built on WordPress with full theme customization, delivering a clean and professional experience. SMTP integration ensures reliable communication through branded emails, while interactive design elements highlight the company’s modern approach. Responsive layouts and strong visual identity reinforce credibility, making the platform both service-oriented and brand-focused.",
+    links: [
+      {
+        label: "Visit HandTech Solution",
+        url: "https://handtechsolution.com/",
+        icon: "💻",
+        internal: false
+      }
+    ]
+  },
 };
 
 
@@ -460,6 +556,66 @@ const App = () => {
             <>
               <Navbar />
               <ProjectPage {...projects.feals} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectmariot"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.mariot} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectfabbrica"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.fabbrica} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectarredodalpozzo"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.arredoDalPozzo} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectlinehotel"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.lineHotel} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projectcaesarstone"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.caesarstone} />
+              <FooterSection />
+            </>
+          }
+        />
+        <Route
+          path="/projecthandtechsolution"
+          element={
+            <>
+              <Navbar />
+              <ProjectPage {...projects.handtechsolution} />
               <FooterSection />
             </>
           }
