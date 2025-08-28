@@ -18,7 +18,7 @@ const MainContent = () => {
           </p>
         </div>
         <div className="header-col2">
-          <CustomImage class="avatar" src="image\Abstract Background Depop Profile Picture (1).png" alt="avatar" width={800} height={500} />
+          <CustomImage class="avatar" src="/image/avatar.webp" alt="avatar" width={800} height={500} />
         </div>
         <div className="header-col3">
           <CustomImage class="avatar" src="image\hero-devices.svg" alt="hero-device" />
