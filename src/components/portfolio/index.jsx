@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Use Link for routing
 import './style.css'; // Import your styles
+import CustomImage from '../customimage'; // Import CustomImage 
 
 function Portfolio() {
   return (
@@ -15,7 +16,7 @@ function Portfolio() {
       <div className="main-container">
         <div className="col">
           <div className="img-container cursor-pointer">
-            <img src="/image/projectlms.png" alt="portfolio-img1" />
+            <CustomImage src="/image/projectlms.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 ILMVERSITY LMS, built with React and Django, offers a complete educational platform with features like course management, attendance tracking, student progress reports, and real-time analytics for schools and colleges.
@@ -31,7 +32,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="\image\projectternoa.png" alt="portfolio-img1" />
+            <CustomImage src="\image\projectternoa.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Blockchain app built with React and Node.js for secure, censorship-resistant digital asset management.
@@ -46,7 +47,7 @@ function Portfolio() {
         </div>
         <div className="col">
           <div className="img-container">
-            <img src="\image\projectforrio.png" alt="portfolio-img1" />
+            <CustomImage src="\image\projectforrio.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Foriio is built with React.js & Express.js. It provides features to create a portfolio of our work and share it with others. You can also become a collaborator with others. You can upload images, videos, and articles
@@ -62,7 +63,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="\image\projectcds.png" alt="portfolio-img1" />
+            <CustomImage src="\image\projectcds.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built a secure, scalable document conversion system for legal firms using .NET Core and Angular. Developed APIs for processing large files, integrated Azure for deployment, and ensured performance, compliance, and seamless user experience.
@@ -78,7 +79,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="image\projectcrm.png" alt="portfolio-img1" />
+            <CustomImage src="image\projectcrm.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Integrated CAS genesisWorld CRM using .NET Core and C#, automating workflows, enhancing data operations with SQL Server, and deploying RESTful services via Azure DevOps to streamline CRM processes and boost business productivity.
@@ -94,7 +95,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="image\projectfarming.png" alt="portfolio-img1" />
+            <CustomImage src="image\projectfarming.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Developed a smart farming IoT platform using .NET Core, Azure, and MongoDB. Integrated cloud-based APIs, managed sensor data ingestion, and deployed scalable backend services to optimize agricultural monitoring and automate real-time insights.
@@ -110,7 +111,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="\image\projectsharedot.png" alt="portfolio-img1" />
+            <CustomImage src="\image\projectsharedot.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Smart content discovery platform built with MERN and NLP for real-time, AI-assisted content delivery
@@ -126,7 +127,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/projectrhino.png" alt="portfolio-img1" />
+            <CustomImage src="/image/projectrhino.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Rhino is a platform built with React.js and Ruby on Rails that
@@ -144,7 +145,7 @@ function Portfolio() {
         </div>
         <div className="col">
           <div className="img-container">
-            <img src="\image\projectticketing.png" alt="portfolio-img1" />
+            <CustomImage src="\image\projectticketing.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Advanced ticketing platform with RoR backend and a modern, interactive React UI.
@@ -171,7 +172,7 @@ function Portfolio() {
       <div className="main-container">
         <div className="col">
           <div className="img-container cursor-pointer">
-            <img src="/image/conatural.png" alt="portfolio-img1" />
+            <CustomImage src="/image/conatural.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built with Shopify, featuring Liquid-based UI customization, dynamic product collections, and a powerful review engine.
@@ -187,7 +188,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/vivanum.png" alt="portfolio-img1" />
+            <CustomImage src="/image/vivanum.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built with Shopify and powered by custom Liquid, Skio Subscriptions, and a bold science-first brand identity.
@@ -203,7 +204,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/fitgirl.png" alt="portfolio-img1" />
+            <CustomImage src="/image/fitgirl.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built with Shopify, combining custom Liquid development, product bundling, and conversion-focused wellness UX.
@@ -219,7 +220,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/nutrition.png" alt="portfolio-img1" />
+            <CustomImage src="/image/nutrition.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built with Shopify using custom Liquid development, fast-loading UI, and integrated review and delivery trust markers.
@@ -235,7 +236,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/ventinove.png" alt="portfolio-img1" />
+            <CustomImage src="/image/ventinove.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Developed with Shopify using custom Liquid templates and UI enhancements to elevate brand trust and conversion.
@@ -251,7 +252,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/fleas.png" alt="portfolio-img1" />
+            <CustomImage src="/image/fleas.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Built with Shopify, featuring Liquid-based UI customization, subscription-ready product flow, and third-party verified wellness branding
@@ -279,7 +280,7 @@ function Portfolio() {
       <div className="main-container">
         <div className="col">
           <div className="img-container cursor-pointer">
-            <img src="/image/mariostore.png" alt="portfolio-img1" />
+            <CustomImage src="/image/mariostore.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Feature-rich ecommerce platform built with WordPress, WooCommerce, Elementor, and custom theme development.
@@ -295,7 +296,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/fabrica.webp" alt="Fabrica Screenshot" />
+            <CustomImage src="/image/fabrica.webp" alt="Fabrica Screenshot" />
             <div className="img-content">
               <p>
                 Showcase website built with WordPress, featuring immersive storytelling, multiple restaurant locations, and menu highlights.              </p>
@@ -310,7 +311,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/arredodalpozzo.webp" alt="portfolio-img1" />
+            <CustomImage src="/image/arredodalpozzo.webp" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 High-end interior design brand with curated online shop, professional services, and design consultancy.              </p>
@@ -325,7 +326,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/thelinehotel.webp" alt="The Line Hotel screenshot" />
+            <CustomImage src="/image/thelinehotel.webp" alt="The Line Hotel screenshot" />
             <div className="img-content">
               <p>
                 Hospitality website built with WordPress, custom theme development, and booking engine integration.              </p>
@@ -340,7 +341,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="image/caesarstoneus.webp" alt="portfolio-img1" />
+            <CustomImage src="image/caesarstoneus.webp" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Corporate ecommerce and brand experience site built with WordPress, WooCommerce, and custom visualization tools.              </p>
@@ -355,7 +356,7 @@ function Portfolio() {
 
         <div className="col">
           <div className="img-container">
-            <img src="/image/HTS.png" alt="portfolio-img1" />
+            <CustomImage src="/image/HTS.png" alt="portfolio-img1" />
             <div className="img-content">
               <p>
                 Modern corporate website built with WordPress, SMTP integration, and interactive design.              </p>

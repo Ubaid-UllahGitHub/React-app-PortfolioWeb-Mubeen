@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './style.css'; // Import your CSS
-
+import CustomImage from '../customimage'; // Import CustomImage component
 const MainContent = () => {
   return (
     <main>
@@ -18,10 +18,10 @@ const MainContent = () => {
           </p>
         </div>
         <div className="header-col2">
-          <img class="avatar" src="image\Abstract Background Depop Profile Picture (1).png" alt="avatar" />
+          <CustomImage class="avatar" src="image\Abstract Background Depop Profile Picture (1).png" alt="avatar" width={800} height={500} />
         </div>
         <div className="header-col3">
-          <img class="avatar" src="image\hero-devices.svg" alt="hero-device" />
+          <CustomImage class="avatar" src="image\hero-devices.svg" alt="hero-device" />
         </div>
       </div>
     </main>

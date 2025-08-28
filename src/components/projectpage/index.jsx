@@ -1,6 +1,7 @@
 // components/ProjectPage.jsx
 import React from 'react';
 import './style.css'; // Import your styles
+import CustomImage from '../customimage'; // Import CustomImage component
 const ProjectPage = ({ title, subtitle, imageSrc, imageAlt, description, links }) => {
   return (
     <div className="project-wrapper">

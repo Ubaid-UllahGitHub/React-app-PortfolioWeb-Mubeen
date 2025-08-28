@@ -12,6 +12,7 @@ import ContactHeader from "./components/contact-header";
 import ContactMain from "./components/contact-main";
 import FooterSection from "./components/footer";
 import ProjectPage from "./components/projectpage";
+import CustomImage from "./components/customimage"; // Import CustomImage component
 import ScrollToTop from "./components/ScrollToTop"; // Import ScrollToTop component
 
 const projects = {

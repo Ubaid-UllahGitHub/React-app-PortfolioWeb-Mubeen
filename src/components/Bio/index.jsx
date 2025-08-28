@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'; // Import your CSS
-
+import CustomImage from '../customimage'; // Import CustomImage component
 const BioSection = () => {
   return (
     <section className="s1" id="services">
